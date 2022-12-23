@@ -1,0 +1,8 @@
+stages:
+  - build
+
+build:
+  image: gcc:bullseye
+  stage: build
+  script:
+    - make
