@@ -18,7 +18,7 @@
 #include <errno.h>
 #include <sys/ioctl.h>
 
-#define LLDP_DELAY	500
+#define LLDP_DELAY	(250 * 1000)
 
 char buf[] = {
 	/* Destination - LLDP Multicast */
